@@ -12,10 +12,9 @@ app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'powar.pranav29@gmail.com'
+app.config['MAIL_USERNAME'] = 'garg.ansh21@gmail.com'
 app.config['MAIL_PASSWORD'] = 'xjgv elfe dsen uxgx'
-app.config['MAIL_DEFAULT_SENDER'] = 'powar.pranav29@gmail.com'
-
+app.config['MAIL_DEFAULT_SENDER'] = 'garg.ansh21@gmail.com'
 mail = Mail(app)
 
 def create_directory(directory):
