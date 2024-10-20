@@ -1,4 +1,4 @@
-runtime: python
+runtime: Python
 env: flex
 entrypoint: gunicorn -b :$PORT app:app
 runtime_config:
